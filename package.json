@@ -1,0 +1,24 @@
+{
+  "name": "pingpang-api",
+  "version": "1.0.0",
+  "description": "pingpang后台api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./app.js",
+    "rc": "cross-env NODE_ENV=production nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mingme <419654548@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}
